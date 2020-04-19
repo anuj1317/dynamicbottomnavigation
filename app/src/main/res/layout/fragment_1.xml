@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:background="@drawable/a1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="DYNAMIC FRAGMENTS"
+            android:textColor="@color/design_default_color_on_primary"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:hint="Enter you text here"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+</LinearLayout>
